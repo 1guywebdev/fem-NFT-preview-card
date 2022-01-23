@@ -35,7 +35,7 @@ hr {
   display: block;
 }
 .container {
-  width: 80vw;
+  width: 70vw;
   height: 100%;
   background: var(--card-BG);
   border-radius: 15px;
@@ -208,7 +208,7 @@ hr {
   color: var(--white);
 }
 .attribution a { 
-  color: hsl(228, 45%, 44%); 
+  color: hsl(228, 45%, 44%);
 }
 @media screen and (min-width: 1000px) {
   .attribution {
