@@ -43,7 +43,7 @@ hr {
 }
 @media screen and (min-width: 1000px) {
   .container {
-    max-width: 350px;
+    max-width: 300px;
     max-height: 80%;
     margin-top: 10rem;
     margin-bottom: 10rem;
@@ -59,8 +59,8 @@ hr {
 }
 @media screen and (min-width: 575px) {
   .container {
-    width: 60%;
-    height: 80%;
+    width: 80%;
+    height: 100%;
     margin-top: 4rem;
     margin-bottom: 4rem;
   }
@@ -68,6 +68,12 @@ hr {
 @media screen and (min-width: 480px) {
   .container {
     width: 60%;
+    height: 80%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container {
+    width: 90%;
     height: 80%;
   }
 }
