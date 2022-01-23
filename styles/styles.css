@@ -93,6 +93,7 @@ hr {
   position: absolute;
   opacity: 0;
   transition: 0.3s;
+  cursor: pointer;
 }
 .hero:hover::after {
   opacity: 1;
@@ -110,9 +111,6 @@ hr {
 }
 .hero:hover .hero-icon-div {
   opacity: 0.4;
-}
-.hero:hover .icon-overlay {
-  filter: brightness(300%);
 }
 .hero-icon-div {
   position: absolute;
